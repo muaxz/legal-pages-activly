@@ -1,123 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[App Name] Support</title>
-    <style>
-        :root {
-            --primary-color: #007AFF; /* Apple Blue */
-            --bg-color: #f5f5f7;
-            --card-bg: #ffffff;
-            --text-main: #1d1d1f;
-            --text-secondary: #86868b;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-main);
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-
-        .container {
-            width: 90%;
-            max-width: 600px;
-            background: var(--card-bg);
-            padding: 40px;
-            border-radius: 20px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-            margin: 20px 0;
-        }
-
-        header {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-
-        .app-icon {
-            width: 80px;
-            height: 80px;
-            border-radius: 18px;
-            background: var(--primary-color);
-            margin-bottom: 15px;
-            display: inline-block;
-            box-shadow: 0 4px 10px rgba(0,122,255,0.3);
-        }
-
-        h1 { font-size: 24px; font-weight: 600; margin: 0; }
-        p.subtitle { color: var(--text-secondary); margin-top: 5px; }
-
-        .section {
-            margin-bottom: 25px;
-            padding: 20px;
-            border: 1px solid #e5e5e7;
-            border-radius: 12px;
-        }
-
-        h2 { font-size: 18px; margin-top: 0; color: var(--primary-color); }
-
-        .btn {
-            display: inline-block;
-            background: var(--primary-color);
-            color: white;
-            text-decoration: none;
-            padding: 12px 25px;
-            border-radius: 8px;
-            font-weight: 500;
-            transition: opacity 0.2s;
-            width: 100%;
-            text-align: center;
-            box-sizing: border-box;
-        }
-
-        .btn:hover { opacity: 0.8; }
-
-        .footer {
-            text-align: center;
-            font-size: 12px;
-            color: var(--text-secondary);
-            margin-top: 30px;
-        }
-
-        a { color: var(--primary-color); text-decoration: none; }
-    </style>
+  <meta charset="UTF-8" />
+  <title>Support – Activly</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #f7f9fc;
+      margin: 0;
+      padding: 0;
+      color: #111;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    h1 {
+      font-size: 32px;
+      margin-bottom: 8px;
+    }
+    p {
+      line-height: 1.6;
+      font-size: 16px;
+      color: #333;
+    }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+      margin-top: 24px;
+    }
+    .email-box {
+      margin-top: 12px;
+      padding: 14px 16px;
+      background: #f1f5f9;
+      border-radius: 8px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 15px;
+      user-select: all;
+      word-break: break-all;
+    }
+    .faq-item {
+      margin-top: 16px;
+    }
+    .faq-item h3 {
+      margin: 0 0 6px 0;
+      font-size: 17px;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #555;
+      text-align: center;
+    }
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
+  <div class="container">
+    <h1>Support – Activly</h1>
+    <p>If you need help with the Activly app, you can contact us using the email below.</p>
 
-<div class="container">
-    <header>
-        <div class="app-icon"></div> 
-        <h1>Activly Support</h1>
-        <p class="subtitle">We're here to help you get the most out of our app.</p>
-    </header>
-
-    <div class="section">
-        <h2>How can we help?</h2>
-        <p>Whether you've found a bug, have a feature request, or just want to say hi, we'd love to hear from you.</p>
-        <a href="mailto:[ozerr.emre10@gmail.com]" class="btn">Email Support</a>
+    <div class="card">
+      <h2>Contact</h2>
+      <p>Please copy and email us at:</p>
+      <div class="email-box">ozerr.emre10@gmail.com</div>
+      <p>We usually respond within 24–48 hours.</p>
     </div>
 
-    <div class="section">
-        <h2>Quick FAQ</h2>
-        <p><strong>Common Question?</strong><br>
-        The answer to your most common user question goes right here.</p>
-        
-        <p><strong>Trouble syncing?</strong><br>
-        Try restarting the app or checking your internet connection.</p>
+    <div class="card">
+      <h2>FAQ</h2>
+
+      <div class="faq-item">
+        <h3>Why are my Apple Health updates delayed?</h3>
+        <p>
+          Apple Health syncs data periodically, not instantly. You may notice small delays throughout the day, but your final step count and activity data will be accurate by the end of the day.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Does Activly sync with my Apple Watch?</h3>
+        <p>
+          Yes! Activly automatically syncs with your Apple Watch through Apple Health. Any activities tracked on your Apple Watch will appear in Activly once your watch syncs with your iPhone.
+        </p>
+      </div>
+
     </div>
 
-    <div class="footer">
-        &copy; 2026 [Your Name/Company]. All rights reserved.<br>
-        <a href="[Link-to-your-Privacy-Policy]">Privacy Policy</a>
-    </div>
-</div>
-
+    <footer>
+      © 2026 Activly · <a href="/privacy.html">Privacy Policy</a> · <a href="/terms.html">Terms of Service</a>
+    </footer>
+  </div>
 </body>
 </html>
